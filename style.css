@@ -47,10 +47,19 @@ body{
     color: #696969;
     padding-top: 20px;
     padding-right: 137px;
+    padding-bottom: 20px;
 }
 
 .welcome-part h2 span{
     color: #FFA500;
+}
+
+.welcome-part a{
+    background: linear-gradient(90deg, rgba(255,153,117,1) 0%, rgba(255,110,81,1) 100%);
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
 }
 
 .img_part{
