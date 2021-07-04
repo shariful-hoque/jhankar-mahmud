@@ -2,3 +2,61 @@
     margin: 0;
     padding: 0;
 }
+
+img{
+    vertical-align: middle;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner-part{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.welcome-part{
+    width: 50%;
+    padding-left: 143px;
+}
+
+.welcome-part h1{
+    font-size: 57px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-top: 60px;
+}
+
+.welcome-part h2{
+    font-size: 57px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.welcome-part h3{
+    font-size: 18px;
+    padding-top: 40px;
+    font-weight: 700;
+}
+
+.welcome-part p{
+    font-size: 16px;
+    color: #696969;
+    padding-top: 20px;
+    padding-right: 137px;
+}
+
+.welcome-part h2 span{
+    color: #FFA500;
+}
+
+.img_part{
+    width: 50%;
+}
+
+.img_part img{
+    width: 87%;
+}
