@@ -116,3 +116,82 @@ body{
     color: #fff;
     font-weight: 600;
 }
+
+#expreance_part{
+    background: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: -130px;
+}
+
+#expreance_part h1{
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.xp_fst{
+    display: flex;
+}
+
+.xp_left{
+    width: 50%;
+}
+
+.xp_right{
+    width: 50%;
+}
+
+.xp_right_box{
+    width: 78%;
+    box-shadow: 5px 7px 40px grey;
+    padding: 45px 0 135px 45px;
+    border-left: 7px solid;
+    border-image: linear-gradient(190deg, rgba(255,159,121,1) 0%, rgba(255,101,72,1) 100%);
+    border-image-slice: 1;
+    margin-left: 7%;
+}
+
+.xp_right_box h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.xp_right_box h3{
+    padding: 35px 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFA500;
+}
+
+.xp_right_box p{
+    font-size: 16px;
+    color: #696969;
+}
+
+.xp_under_main{
+    width: 50%;
+}
+
+.xp_under_right{
+    width: 50%;
+}
+
+.xp_under_main_right{
+    margin-left: 10%;
+    border-left: 7px solid;
+    border-image: linear-gradient(190deg, rgba(0,7,255,1) 0%, rgba(0,253,255,1) 100%);
+    border-image-slice: 1;
+}
+
+.xp_under_main_right p{
+    padding-right: 10px;
+}
+
+.xp_under_right p{
+    text-align: center;
+    font-size: 16;
+    color: #696969;
+    padding-top: 22%;
+}
