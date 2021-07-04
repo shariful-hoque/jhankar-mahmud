@@ -39,7 +39,7 @@ body{
 .welcome-part h3{
     font-size: 18px;
     padding-top: 40px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .welcome-part p{
@@ -60,6 +60,8 @@ body{
     text-decoration: none;
     border-radius: 10px;
     color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .img_part{
@@ -68,4 +70,49 @@ body{
 
 .img_part img{
     width: 87%;
+}
+
+#dream_part{
+    background: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+}
+
+.dream_left{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 143px;
+}
+
+.dream_right{
+    width: 50%;
+}
+
+.dream_right h2{
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+.dream_right h3{
+    padding: 35px 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dream_right p{
+    font-size: 16px;
+    color: #696969;
+    padding-right: 137px;
+    padding-bottom: 20px;
+}
+
+.dream_right a{
+    background: linear-gradient(90deg, rgba(255,153,117,1) 0%, rgba(255,110,81,1) 100%);
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
 }
